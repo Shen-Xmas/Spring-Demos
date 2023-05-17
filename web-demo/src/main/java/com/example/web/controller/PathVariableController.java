@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.demo.web.demos.web;
+package com.example.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
+ * @author <a href="https://shen-xmas.github.io/">theonefx</a>
  */
 @Controller
 public class PathVariableController {

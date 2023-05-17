@@ -14,8 +14,9 @@
  * limitations under the License.
  */
 
-package com.example.demo.web.demos.web;
+package com.example.web.controller;
 
+import com.example.web.controller.vo.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,7 +24,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
+ * @author <a href="https://shen-xmas.github.io/">theonefx</a>
  */
 @Controller
 public class BasicController {
@@ -38,8 +39,8 @@ public class BasicController {
     // http://127.0.0.1:8080/user
     @RequestMapping("/user")
     @ResponseBody
-    public User user() {
-        User user = new User();
+    public com.example.web.controller.vo.User user() {
+        com.example.web.controller.vo.User user = new com.example.web.controller.vo.User();
         user.setName("theonefx");
         user.setAge(666);
         return user;

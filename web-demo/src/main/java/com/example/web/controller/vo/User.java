@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.example.demo.web.demos.web;
+package com.example.web.controller.vo;
 
 /**
- * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
+ * @author <a href="https://shen-xmas.github.io/">theonefx</a>
  */
 public class User {
 
